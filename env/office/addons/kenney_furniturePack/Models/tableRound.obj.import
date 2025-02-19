@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfbtmykue0ym5"
+path="res://.godot/imported/tableRound.obj-4ef7a8894b9a6203507d9dfd344f400d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tableRound.obj-4ef7a8894b9a6203507d9dfd344f400d.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/tableRound.obj"
+dest_files=["res://.godot/imported/tableRound.obj-4ef7a8894b9a6203507d9dfd344f400d.mesh", "res://.godot/imported/tableRound.obj-4ef7a8894b9a6203507d9dfd344f400d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

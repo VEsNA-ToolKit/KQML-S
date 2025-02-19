@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr4lq0n72kx2r"
+path="res://.godot/imported/cliff_block_rock.obj-c6ce6cfa5a37213ba22a093d8f0a9052.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cliff_block_rock.obj-c6ce6cfa5a37213ba22a093d8f0a9052.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/cliff_block_rock.obj"
+dest_files=["res://.godot/imported/cliff_block_rock.obj-c6ce6cfa5a37213ba22a093d8f0a9052.mesh", "res://.godot/imported/cliff_block_rock.obj-c6ce6cfa5a37213ba22a093d8f0a9052.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

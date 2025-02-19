@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://g5qfd568gi3c"
+path="res://.godot/imported/kitchenCabinetDrawer 1.obj-c661859f57258b643e15500e2d1b11b1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/kitchenCabinetDrawer 1.obj-c661859f57258b643e15500e2d1b11b1.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/kitchenCabinetDrawer 1.obj"
+dest_files=["res://.godot/imported/kitchenCabinetDrawer 1.obj-c661859f57258b643e15500e2d1b11b1.mesh", "res://.godot/imported/kitchenCabinetDrawer 1.obj-c661859f57258b643e15500e2d1b11b1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

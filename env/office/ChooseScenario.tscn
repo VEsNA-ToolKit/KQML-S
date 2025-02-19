@@ -1,0 +1,106 @@
+[gd_scene load_steps=5 format=3 uid="uid://6jsjkkohqqfl"]
+
+[ext_resource type="Script" path="res://choose_scenario.gd" id="1_kc6nv"]
+
+[sub_resource type="Theme" id="Theme_id86x"]
+default_font_size = 48
+
+[sub_resource type="SystemFont" id="SystemFont_0av2s"]
+
+[sub_resource type="Theme" id="Theme_375ay"]
+default_font = SubResource("SystemFont_0av2s")
+default_font_size = 64
+
+[node name="ChooseScenario" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kc6nv")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -846.0
+offset_top = -878.0
+offset_right = 3826.0
+offset_bottom = 2492.0
+
+[node name="scenario1" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = -157.5
+offset_right = 146.0
+offset_bottom = -82.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_id86x")
+text = "Scenario 1"
+
+[node name="scenario2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = -61.5
+offset_right = 146.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_id86x")
+text = "Scenario 2"
+
+[node name="scenario3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = 34.5
+offset_right = 146.0
+offset_bottom = 109.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_id86x")
+text = "Scenario 3"
+
+[node name="scenario4" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = 130.5
+offset_right = 146.0
+offset_bottom = 205.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_id86x")
+text = "Scenario 4"
+
+[node name="Title" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -351.0
+offset_top = 32.0
+offset_right = 352.0
+offset_bottom = 120.0
+grow_horizontal = 2
+theme = SubResource("Theme_375ay")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "KQML-S Test Scenarios"

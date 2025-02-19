@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8kynnch7tm5u"
+path="res://.godot/imported/ground_riverRocks.obj-eafce9c63ba02aeef2b65cbaa9299a56.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ground_riverRocks.obj-eafce9c63ba02aeef2b65cbaa9299a56.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/ground_riverRocks.obj"
+dest_files=["res://.godot/imported/ground_riverRocks.obj-eafce9c63ba02aeef2b65cbaa9299a56.mesh", "res://.godot/imported/ground_riverRocks.obj-eafce9c63ba02aeef2b65cbaa9299a56.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

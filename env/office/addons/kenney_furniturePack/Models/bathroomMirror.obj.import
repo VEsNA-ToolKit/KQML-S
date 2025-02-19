@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://di18tunrw7fwv"
+path="res://.godot/imported/bathroomMirror.obj-80aa0f5b0aeb9b1d76684f1d4550009c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bathroomMirror.obj-80aa0f5b0aeb9b1d76684f1d4550009c.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/bathroomMirror.obj"
+dest_files=["res://.godot/imported/bathroomMirror.obj-80aa0f5b0aeb9b1d76684f1d4550009c.mesh", "res://.godot/imported/bathroomMirror.obj-80aa0f5b0aeb9b1d76684f1d4550009c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

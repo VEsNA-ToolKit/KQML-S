@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xnqoew0jfeal"
+path="res://.godot/imported/tree_plateau_fall.obj-98b90fc9bb74201f58bc4960ef25a13e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_plateau_fall.obj-98b90fc9bb74201f58bc4960ef25a13e.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/tree_plateau_fall.obj"
+dest_files=["res://.godot/imported/tree_plateau_fall.obj-98b90fc9bb74201f58bc4960ef25a13e.mesh", "res://.godot/imported/tree_plateau_fall.obj-98b90fc9bb74201f58bc4960ef25a13e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

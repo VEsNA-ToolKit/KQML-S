@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b7h52drqo0yma"
+path="res://.godot/imported/statue_column.obj-66b6881899d8be6ecbe835f70b96b5ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/statue_column.obj-66b6881899d8be6ecbe835f70b96b5ed.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/statue_column.obj"
+dest_files=["res://.godot/imported/statue_column.obj-66b6881899d8be6ecbe835f70b96b5ed.mesh", "res://.godot/imported/statue_column.obj-66b6881899d8be6ecbe835f70b96b5ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

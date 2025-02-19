@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://l0csp6i53ud6"
+path="res://.godot/imported/bridge_side_woodRound.obj-fecbab1683a2e10a34a36479087bc2bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge_side_woodRound.obj-fecbab1683a2e10a34a36479087bc2bf.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/bridge_side_woodRound.obj"
+dest_files=["res://.godot/imported/bridge_side_woodRound.obj-fecbab1683a2e10a34a36479087bc2bf.mesh", "res://.godot/imported/bridge_side_woodRound.obj-fecbab1683a2e10a34a36479087bc2bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

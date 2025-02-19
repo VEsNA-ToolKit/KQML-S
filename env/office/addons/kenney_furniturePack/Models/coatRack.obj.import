@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2flglbw5tapi"
+path="res://.godot/imported/coatRack.obj-f69d4978770462c0d31c119b3103b905.mesh"
+
+[deps]
+
+files=["res://.godot/imported/coatRack.obj-f69d4978770462c0d31c119b3103b905.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/coatRack.obj"
+dest_files=["res://.godot/imported/coatRack.obj-f69d4978770462c0d31c119b3103b905.mesh", "res://.godot/imported/coatRack.obj-f69d4978770462c0d31c119b3103b905.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+mas vesna {
+    
+    agent alice:alice.asl {
+        beliefs:   address( localhost )
+                    port( 9081 )
+        goals:    start
+        ag-class: vesna.VesnaAgent
+        focus:    white_pages
+    }
+
+    agent bob:bob.asl {
+        beliefs:   address( localhost )
+                    port( 9080 )
+        goals:    start
+        ag-class: vesna.VesnaAgent
+        focus:    white_pages
+    }
+
+    workspace office {
+        artifact white_pages : kqml_s.WhitePages
+    }
+
+}

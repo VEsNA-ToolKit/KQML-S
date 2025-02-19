@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dba8d21lsflla"
+path="res://.godot/imported/floorFull.obj-cc1f506c421a63c0b605b878784c1303.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floorFull.obj-cc1f506c421a63c0b605b878784c1303.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/floorFull.obj"
+dest_files=["res://.godot/imported/floorFull.obj-cc1f506c421a63c0b605b878784c1303.mesh", "res://.godot/imported/floorFull.obj-cc1f506c421a63c0b605b878784c1303.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://on2ngjew5wyg"
+path="res://.godot/imported/bedBunk.obj-67b602a5eba009e7b45eb3699fbbe6bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bedBunk.obj-67b602a5eba009e7b45eb3699fbbe6bd.mesh"]
+
+source_file="res://addons/kenney_furniturePack/Models/bedBunk.obj"
+dest_files=["res://.godot/imported/bedBunk.obj-67b602a5eba009e7b45eb3699fbbe6bd.mesh", "res://.godot/imported/bedBunk.obj-67b602a5eba009e7b45eb3699fbbe6bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

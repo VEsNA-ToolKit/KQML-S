@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dc557bce5flbi"
+path="res://.godot/imported/fence_bendCenter.obj-2d6bf2c43328e427590e3da491bb815e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_bendCenter.obj-2d6bf2c43328e427590e3da491bb815e.mesh"]
+
+source_file="res://addons/kenney_nature-kit/Models/OBJ format/fence_bendCenter.obj"
+dest_files=["res://.godot/imported/fence_bendCenter.obj-2d6bf2c43328e427590e3da491bb815e.mesh", "res://.godot/imported/fence_bendCenter.obj-2d6bf2c43328e427590e3da491bb815e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
