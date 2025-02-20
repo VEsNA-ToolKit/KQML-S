@@ -7,6 +7,7 @@
         +my_desk( senior_3_desk );
         .wait( 5000 );
         !go_to( open_office );
+        .print( "I ask bob to print 2 exam texts" );
         kqml_s.send( public, bob, achieve, print( paper( exam, 2 ) ) );
         vesna.says( achieve, bob, print( paper( exam, 2 ) ) );
         .wait( 2000 );

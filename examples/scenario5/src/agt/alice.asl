@@ -7,7 +7,7 @@
         +my_desk( senior_3_desk );
         .wait( 15000 );
         !go_to( open_office );
-        .print( "I tell bob that we won the big project");
+        .print( "I ask all if anybody can print the EMAS call for papers" );
         kqml_s.send( public, all, achieve, give( Me, paper( emas_call, 1 ) ) );
         vesna.says( achieve, all, give( Me, paper( emas_call, 1 ) ) );
         .wait( 2000 );

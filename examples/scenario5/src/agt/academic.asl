@@ -20,8 +20,7 @@
 +!take_coffee
     <-  !go_to(  coffee_machine );
         .print( "I'm taking a coffee" );
-        .wait( 5000 );
-        .print( "Back to work!" ).
+        .wait( 5000 ).
 
 +!speak_with( Privacy, Person, Performative, Msg )
     <-  get_location( Person, Location );
@@ -54,6 +53,6 @@
 
 +!give( Person, paper( Paper, N ) )
     <-  .print( "I do not have ", N, " copies of ", Paper );
-        !print( Object );
+        !print( paper( Paper, N ) );
         .wait( 3000 );
         !give( Person, printed( paper( Paper, N ) ) ).

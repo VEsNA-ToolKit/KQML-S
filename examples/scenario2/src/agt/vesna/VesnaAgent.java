@@ -70,7 +70,7 @@ public class VesnaAgent extends Agent implements WsClientMsgHandler {
 
     @Override
     public void handle_msg( String msg ) {
-        System.out.println( "Received message: " + msg );
+        // System.out.println( "Received message: " + msg );
         JSONObject log = new JSONObject( msg );
         String sender = log.getString( "sender" );
         String receiver = log.getString( "receiver" );

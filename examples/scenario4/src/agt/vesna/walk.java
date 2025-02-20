@@ -27,7 +27,7 @@ public class walk extends DefaultInternalAction {
                 id = (long)( (NumberTerm) args[1] ).solve();
                 break;
             default:
-                System.out.println( "Action " + target + " not implemented yet" );
+                // System.out.println( "Action " + target + " not implemented yet" );
                 break;
         }
 
