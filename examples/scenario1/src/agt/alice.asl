@@ -8,6 +8,6 @@
         .wait( 5000 );
         !go_to( open_office );
         kqml_s.send( public, bob, achieve, print( paper( exam, 2 ) ) );
-//        vesna.says( achieve, bob, print( paper( exam, 2 ) ) );
+        vesna.says( achieve, bob, print( paper( exam, 2 ) ) );
         .wait( 2000 );
         !go_to_work.

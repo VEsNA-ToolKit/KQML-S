@@ -72,8 +72,11 @@ offset_right = 146.0
 offset_bottom = 109.5
 grow_horizontal = 2
 grow_vertical = 2
+tooltip_text = "Not Implemented"
 theme = SubResource("Theme_id86x")
+disabled = true
 text = "Scenario 3"
+flat = true
 
 [node name="scenario4" type="Button" parent="."]
 layout_mode = 1
@@ -90,6 +93,22 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_id86x")
 text = "Scenario 4"
+
+[node name="scenario5" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.0
+offset_top = 226.5
+offset_right = 146.0
+offset_bottom = 301.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_id86x")
+text = "Scenario 5"
 
 [node name="Title" type="RichTextLabel" parent="."]
 layout_mode = 1

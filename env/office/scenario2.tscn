@@ -1,4 +1,4 @@
-[gd_scene load_steps=611 format=4 uid="uid://226rcfj7i8r7"]
+[gd_scene load_steps=612 format=4 uid="uid://226rcfj7i8r7"]
 
 [ext_resource type="ArrayMesh" uid="uid://dba8d21lsflla" path="res://addons/kenney_furniturePack/Models/floorFull.obj" id="1_wdk4n"]
 [ext_resource type="ArrayMesh" uid="uid://iws50h3eepdw" path="res://addons/kenney_furniturePack/Models/wall.obj" id="2_t1usp"]
@@ -62,6 +62,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dv6kcauq4e6ts" path="res://addons/kenney_furniturePack/Models/wallDoorwayWide.obj" id="60_v7cm5"]
 [ext_resource type="Script" path="res://scripts/user.gd" id="61_kwvfw"]
 [ext_resource type="Script" path="res://scripts/vesna.gd" id="62_voomd"]
+[ext_resource type="Texture2D" uid="uid://b2l8ctr57rhes" path="res://addons/comic_cloud.png" id="63_d6sq0"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rpnay"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -10057,13 +10058,11 @@ avoidance_enabled = true
 radius = 1.0
 use_3d_avoidance = true
 
-[node name="Label3D" type="Label3D" parent="Bob"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+[node name="Sprite3D" type="Sprite3D" parent="Bob"]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, 0.000646472, 0.0440219, 0.0167819)
 visible = false
-pixel_size = 0.0001
-text = "Hello"
-font_size = 50
-outline_size = 5
+billboard = 1
+texture = ExtResource("63_d6sq0")
 
 [node name="Frank" type="CharacterBody3D" parent="."]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 8.72525, 4.22703, 4.76929)
@@ -10516,13 +10515,11 @@ avoidance_enabled = true
 radius = 1.0
 use_3d_avoidance = true
 
-[node name="Label3D" type="Label3D" parent="Frank"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+[node name="Sprite3D" type="Sprite3D" parent="Frank"]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, 0.000646472, 0.0440219, 0.0167819)
 visible = false
-pixel_size = 0.0001
-text = "Hello"
-font_size = 50
-outline_size = 5
+billboard = 1
+texture = ExtResource("63_d6sq0")
 
 [node name="George" type="CharacterBody3D" parent="."]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 8.72525, 4.22703, -7.9779)
@@ -10975,13 +10972,11 @@ avoidance_enabled = true
 radius = 1.0
 use_3d_avoidance = true
 
-[node name="Label3D" type="Label3D" parent="George"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+[node name="Sprite3D" type="Sprite3D" parent="George"]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, 0.000646472, 0.0440219, 0.0167819)
 visible = false
-pixel_size = 0.0001
-text = "Hello"
-font_size = 50
-outline_size = 5
+billboard = 1
+texture = ExtResource("63_d6sq0")
 
 [node name="Hilary" type="CharacterBody3D" parent="."]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 13.7861, 4.22703, -7.9779)
@@ -11434,13 +11429,11 @@ avoidance_enabled = true
 radius = 1.0
 use_3d_avoidance = true
 
-[node name="Label3D" type="Label3D" parent="Hilary"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+[node name="Sprite3D" type="Sprite3D" parent="Hilary"]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, 0.000646472, 0.0440219, 0.0167819)
 visible = false
-pixel_size = 0.0001
-text = "Hello"
-font_size = 50
-outline_size = 5
+billboard = 1
+texture = ExtResource("63_d6sq0")
 
 [node name="Alice" type="CharacterBody3D" parent="."]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 68.3132, 4.22703, 34.5577)
@@ -11893,9 +11886,8 @@ avoidance_enabled = true
 radius = 1.0
 use_3d_avoidance = true
 
-[node name="Label3D" type="Label3D" parent="Alice"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
-pixel_size = 0.0001
-text = "Hello"
-font_size = 50
-outline_size = 5
+[node name="Sprite3D" type="Sprite3D" parent="Alice"]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, 0.000646472, 0.0440219, 0.0167819)
+visible = false
+billboard = 1
+texture = ExtResource("63_d6sq0")

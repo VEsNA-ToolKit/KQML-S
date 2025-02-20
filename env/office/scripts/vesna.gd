@@ -142,6 +142,12 @@ func play_run() -> void:
 	run_anim.play( "Root|Run" )
 
 func display_msg( performative : String, recipient : String, msg : String ):
-	var label : Label3D = get_node( "Label3D" )
-	label.text = "" + recipient + ", '" + performative + " " + msg + "'" 
-	label.visible = true
+	var cloud : Sprite3D = get_node( "Sprite3D" )
+	cloud.visible = true
+	var tween = cloud.create_tween()
+	tween.tween_property(cloud, "rotation_degrees:z", 10, 0.5).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	tween.tween_property(cloud, "rotation_degrees:z", -10, 1).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	tween.tween_property(cloud, "rotation_degrees:z", 0, 0.5).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	tween.set_loops()
+	await get_tree().create_timer(2.0).timeout
+	cloud.visible = false
