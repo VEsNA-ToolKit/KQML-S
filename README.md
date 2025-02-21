@@ -133,3 +133,5 @@ You have to:
 | **Scenario 4**                                               | **Scenario 5**                                               |
 | ![](./docs/img/scenario4.png)                                | ![](./docs/img/scenario5.png)                                |
 | Alice (red agent) tells Bob (the white agent in common room) to check the project rules. The message is heard by Dave that being altruistic decides to check the project rules and tell them to Alice. | Alice (red agent) requests \texttt{all} agents inside the office room to print EMAS call for papers. The message is received from Bob and Irene, and both print it. |
+
+A special thanks to [Kenney](https://www.kenney.nl/) for the models!
