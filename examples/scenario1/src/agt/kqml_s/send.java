@@ -159,7 +159,7 @@ public class send extends DefaultInternalAction {
         String performative = m.getIlForce();
         String to = m.getReceiver();
         for ( String ag : agents ){
-            Literal msgLit = ASSyntax.createLiteral( "notify", createLiteral( performative), createLiteral( agName ), createLiteral( to ), createLiteral( msg ) );
+            Literal msgLit = ASSyntax.createLiteral( "notify", createLiteral( performative), createLiteral( to ), createLiteral( msg ) );
             Message signal_m = new Message( "signal", agName, ag, msgLit );
             ts.getAgArch().sendMsg( signal_m );
         }

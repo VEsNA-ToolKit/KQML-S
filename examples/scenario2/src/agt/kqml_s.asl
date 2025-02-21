@@ -2,11 +2,11 @@
     :   .my_name( Person )
     <-  update_location( Person, Region ).
 
-+notify( tell, Sender, Recipients, Msg )
++notify( tell, Receiver, Msg )[ source( Sender ) ]
     :   credolous
-    <-  .print( "Oops! I heard ", Msg, " with performative tell from ", Sender, " to ", Recipients );
+    <-  .print( "Oops! I heard ", Msg, " with performative tell from ", Sender, " to ", Receiver );
         .print( "I believe it! I add it to beliefs" );
         +Msg[ source( Sender ) ].
 
-+notify( tell, Sender, Recipients, Msg )
-    <-  .print( "Oops! I heard ", Msg, " with performative tell from ", Sender, " to ", Recipients ).
++notify( Performative, Receiver, Msg )[ source( Sender ) ]
+    <-  .print( "Oops! I heard ", Msg, " with performative ", Performative, " from ", Sender, " to ", Receiver ).

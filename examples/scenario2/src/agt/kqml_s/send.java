@@ -160,7 +160,7 @@ public class send extends DefaultInternalAction {
         // String to = m.getReceiver();
         for ( String ag : agents ){
             System.out.println( "TO "+ ag + " performative: " + performative + " agName: " + agName + " to: " +  recipients + " msg: " + msg );
-            Literal msgLit = ASSyntax.createLiteral( "notify", createLiteral( performative), createLiteral( agName ), to, createLiteral( msg ) );
+            Literal msgLit = ASSyntax.createLiteral( "notify", createLiteral( performative), to, createLiteral( msg ) );
             Message signal_m = new Message( "signal", agName, ag, msgLit );
             ts.getAgArch().sendMsg( signal_m );
         }
